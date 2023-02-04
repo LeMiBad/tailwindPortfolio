@@ -32,7 +32,7 @@ const MainPage = () => {
 
 
     return (
-        <div onClick={newRandomStar} className="w-full h-[100vh] bg-black absolute z-10">
+        <div onClick={newRandomStar} className="w-full h-[100vh] bg-black absolute">
             {randomStar.map(star => star)}
         </div>
     )

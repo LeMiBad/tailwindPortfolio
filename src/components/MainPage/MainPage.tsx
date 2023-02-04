@@ -16,7 +16,7 @@ const MainPage = () => {
         const result = []
 
         for(let i = 0; i < 35; i++) {
-            const size = rand(20, 50)
+            const size = rand(10, 20)
 
             result.push(<div style={{width: size, height: size, left:`${rand(0, 100)}%`, top:`${rand(0, 100)}%`}} className={`rounded-full bg-white blur-sm absolute`}></div>)
         }

@@ -43,6 +43,13 @@ module.exports = {
         rotateBlock: {
           '0%': {transform: 'rotate(0) scale(1)'},
           '100%': {transform: 'rotate(-45deg) scale(3)'},
+        },
+        star: {
+          '0%': {transform: 'scale(2)'},
+          '25%': {transform: 'scale(1)'},
+          '50%': {transform: 'scale(3)'},
+          '54%': {transform: 'scale(1)'},
+          '100%': {transform: 'scale(2)'},
         }
       },
       animation: {
@@ -50,8 +57,9 @@ module.exports = {
         'openLeft': 'openLeft 1s forwards',
         'openRight': 'openRight 1s forwards',
         'closeCircle': 'closeCircle 0.3s forwards',
-        'openLight': 'openLight 1.5s forwards',
+        'openLight': 'openLight 0.7s forwards',
         'rotateBlock': 'rotateBlock 1.5s forwards',
+        'star': 'star 3s infinite linear',
       },
     },
     

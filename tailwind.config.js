@@ -42,7 +42,7 @@ module.exports = {
         },
         rotateBlock: {
           '0%': {transform: 'rotate(0) scale(1)'},
-          '100%': {transform: 'rotate(-45deg) scale(2)'},
+          '100%': {transform: 'rotate(-45deg) scale(3)'},
         }
       },
       animation: {
